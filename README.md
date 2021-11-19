@@ -2,7 +2,7 @@
 Instalando Pterodactyl em Minutos <br />
 Coloque "Sudo Su" antes de qualquer comando porfavor <br />
 <br />
-`bash <(curl -sSL https://github.com/ArthurZinMaker021/pterodactyl/releases/download/1.0/install.sh)` <br />
+`bash <(curl -sSL https://github.com/ArthurZinMaker021/pterodactyl-1.7.0/releases/download/1.7.0/install.1.sh)` <br />
 <br />
 Whatsapp Suporte: https://wa.me//+5521984468174 <br />
 Discord: Em Breve... <br />
