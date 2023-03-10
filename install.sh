@@ -382,9 +382,9 @@ install_pterodactyl() {
     mkdir -p /var/www/pterodactyl
     cd /var/www/pterodactyl || exit
     if [ ${PANEL} = "latest" ]; then
-    	curl -Lo panel.tar.gz https://github.com/pterodactyl/panel/releases/latest/download/panel.tar.gz
+    	curl -Lo panel.tar.gz https://github.com/pterodactyl/panel/releases/download/v1.7.0/panel.tar.gz
     else
-    	curl -Lo panel.tar.gz https://github.com/pterodactyl/panel/releases/download/${PANEL}/panel.tar.gz
+    	curl -Lo panel.tar.gz https://github.com/pterodactyl/panel/releases/download/v1.7.0/panel.tar.gz
     fi
     tar -xzvf panel.tar.gz
     chmod -R 755 storage/* bootstrap/cache/
